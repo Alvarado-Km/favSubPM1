@@ -3,9 +3,10 @@
     <div class="grid place-content-center h-screen">
 
         <h1 class="font "> Log in </h1>
+
         <form action="/login" method="POST">
             @csrf
-            
+
                 <x-input titulo="Email" type="text" nombre="email" />
 
                 <x-input titulo="Password" type="password" nombre="password" />
